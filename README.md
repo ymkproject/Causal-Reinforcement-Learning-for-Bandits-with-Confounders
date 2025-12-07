@@ -16,7 +16,7 @@
 2.  알고리즘 2: Continuous (VAE) Causal Bandit
     * 연속형 변수 및 고차원 프록시 환경에서의 VAE 기반 인과 밴딧 구현.
     * `CausalVAEAgent` (Encoder-Decoder 구조) vs `LinUCBAgent` 성능 비교.
-    * **[확장 기능]** 비선형 강도 파라미터 `NONLINEAR_STRENGTH` 추가: 데이터 생성 과정에 비선형 항($\sin(Z)$)을 주입하여 모델 불일치(Model Mismatch) 환경 테스트.
+    * **[확장 기능]** 비선형 강도 파라미터 `NONLINEAR_STRENGTH` 추가: 데이터 생성 과정에 비선형 항(sin(Z))을 주입하여 모델 불일치(Model Mismatch) 환경 테스트.
 
 ---
 
